@@ -20,6 +20,17 @@ Supporting document with evaluation results and other details
     python prepare_data.py
     ```
 2. **Running the models**. The training and evaluation of the various segan models are implemented in `run_isegan.py`. which offers several cGAN configurations. Edit the ```opts``` variable for choosing the cofiguration. The results will be automatically saved to different folders. The folder name is generated from ```files_ops.py ``` and the foldername automatically includes different configuration options.
+    
+The options are:    
+* **Different normalizations**      
+    * Instance Normalization    
+    * Batch Normalization     
+    * Batch Renormalization     
+    * Group Normalization     
+    * Spectral Normalization    
+* **One Sided Label Smoothing**: Encouranging the discriminator to estimate soft probabilities (0.8, 0.9, etc.) on the real samples.    
+* **Trainable Auditory filter-bank layer**: The first layer is initialized using a gammatone filterbank and use it as a trainable layer.    
+* **Pre-emphasis Layer** : Incorporating the pre-emphasis operation as a trainable layer.    
 
 3. **Evaluation on testset is also done together with training**. Set ```TEST_SEGAN = False``` for disabling testing. 
 
