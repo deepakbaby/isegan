@@ -1,7 +1,7 @@
 # Improved SEGAN
 Tricks to improve [SEGAN](https://github.com/santi-pdp/segan) performance. Eveything is re-implemented into Keras with Tensorflow backend.
 
-Supporting document with evaluation results and other details
+Supporting document with evaluation results and other details can be found [here](https://arxiv.org/pdf/2002.08796.pdf).
 
 **Deepak Baby, _iSEGAN: Improved Speech Enhancement Generative Adversarial Networks_, Arxiv preprint, 2020.**
 
