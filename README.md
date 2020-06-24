@@ -7,7 +7,7 @@ Supporting document with evaluation results and other details can be found [here
 
 ----
 ### Pre-requisites
-1. Install [tensorflow](https://www.tensorflow.org/) and [keras](https://keras.io/)
+1. Install [tensorflow](https://www.tensorflow.org/) (tested on Tensorflow v1.13.2) and [keras](https://keras.io/) (tested on Keras v2.3.1)
 1. Install [tqdm](https://pypi.org/project/tqdm/) for profiling the training progress
 1. The experiments are conducted on a dataset from Valentini et. al.,  and are downloaded from [here](https://datashare.is.ed.ac.uk/handle/10283/2791). The following script can be used to download the dataset. *Requires [sox](http://sox.sourceforge.net/) for converting to 16kHz*.
     ```bash
